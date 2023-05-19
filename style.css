@@ -1,0 +1,202 @@
+*{
+    background-color: black;
+}
+.Frank > h1{
+
+background-color: black;
+color: bisque;
+}
+
+h1+p{
+
+    font-style: italic;
+    background-color: black;
+    color: aliceblue;
+}
+
+.hidden{
+
+    display:none
+}
+
+
+.Frank:hover+ .hidden{
+    display: block;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+
+
+
+.hidden p::first-line{
+    font-size: 3rem;
+}
+
+.container{
+
+    background-color: aqua;
+    width: 700px;
+    height: 800px;
+    margin: 0%;
+    padding: 20px;
+    float: left;
+}
+
+.container .box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9{
+    
+    background-color: red;
+    width: 150px;
+    height: 150px;
+margin-left: 20px;
+}
+.box2{
+    background-color: rebeccapurple;
+    margin: 20px;
+}
+.box3{
+    background-color: burlywood;
+    margin: 20px;
+    
+}
+.box4{
+    background-color: chartreuse;
+    margin: 20px;
+}
+
+.box5{
+    background-color: rgb(255, 192, 203);
+    margin: 20px;
+}
+
+.box6{
+    background-color: chocolate;
+    margin: 20px;
+}
+.box7{
+    background-color: rgb(236, 6, 167);
+    margin: 20px;
+}
+.box8{
+    background-color: gold;
+    margin: 20px;
+}
+
+.box9{
+    background-color:blue ;
+    margin: 20;
+}
+.box1:hover{
+    background: url(img/phrankiie-modified.png)
+    
+}
+
+.box1:hover {
+    background-size: 150px;
+}
+
+.box2:hover{
+background:url(img/phrankiie2-modified.png)
+
+}
+.box2:hover{
+    background-size: 150px;
+}
+.box3:hover{
+    background: url(img/phrankiie3.png);
+}
+.box3:hover{
+    background-size: 150px;
+}
+
+.box4:hover{
+    background: url(img/phrankiie4.png);
+}
+.box4:hover{
+    background-size: 150px;
+}
+.box5:hover{
+    background: url(img/phrankiie5.png);
+}
+.box5:hover{
+    background-size: 150px;
+}
+.box6:hover{
+    background: url(img/phrankiie6.png);
+}
+.box6:hover{
+    background-size: 150px;
+}
+.box7:hover{
+    background: url(img/phrankiie7.png);
+}
+.box7:hover{
+    background-size: 150px;
+}
+.box8:hover{
+background: url(img/phrankiie3.png);
+}
+.box8:hover{
+background-size: 150px;
+}
+.box9:hover{
+background: url(img/food-modified.png);
+}
+.box9:hover{
+    background-size: 150px;
+}
+
+
+
+.find{
+    color: black;
+    background-color:rgb(13, 231, 13);
+    font-style: italic;
+    font-stretch: expanded;
+    font-size: larger;
+    font-weight: 400;
+    border: 5px;
+    width: 100px;
+}
+
+   .container2{
+    
+    background-color: aqua;
+    width: 650px;
+    height: 800px;
+    margin: 0%;
+    padding: 20px;
+    float: right;
+
+   } 
+
+   .img{
+margin-top: 20px;
+margin-left: 70px;
+height: 90%;
+width: 90%;
+background-color: aqua;
+
+   }
+
+   .img:hover+ .thankful{
+    color: white;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 500;
+
+   }
+   
+.thankful {
+    background-color: white;
+    border-radius: 30px 50px;
+    margin-top: -10px;
+}
